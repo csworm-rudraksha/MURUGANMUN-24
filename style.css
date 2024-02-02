@@ -178,7 +178,7 @@ font-size: 50px;
 
 
 
-  button {
+  #button1 {
     padding: 15px 25px;
     border: unset;
     width: 100%;
@@ -193,16 +193,18 @@ font-size: 50px;
     box-shadow: 4px 8px 19px -3px rgba(0,0,0,0.27);
     transition: all 250ms;
     overflow: hidden;
+    width: 100%;
+    border-radius: 3px;
   }
   
-  button::before {
+  #button1::before {
     content: "";
     position: absolute;
     top: 0;
     left: 0;
     height: 100%;
     width: 0;
-    border-radius: 15px;
+    border-radius: 3px;
     background-color: #e8e8e8;
     z-index: -1;
     -webkit-box-shadow: 4px 8px 19px -3px rgba(255, 255, 255, 0.27);
@@ -210,11 +212,11 @@ font-size: 50px;
     transition: all 250ms
   }
   
-  button:hover {
+  #button1:hover {
     color: #212121;
   }
   
-  button:hover::before {
+  #button1:hover::before {
     width: 100%;
   }
   #regb{
@@ -235,6 +237,7 @@ font-size: 50px;
   #regleft{
     font-size: 25px;
     color: whitesmoke;
+
   }
 
   #register #map {
