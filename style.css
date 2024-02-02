@@ -170,7 +170,7 @@ font-size: 50px;
   }
   .btn1{
     width: 100%;
-    border-radius: 3px;
+    border-radius: 50%;
   }
   
 
@@ -194,7 +194,7 @@ font-size: 50px;
     transition: all 250ms;
     overflow: hidden;
     width: 100%;
-    border-radius: 3px;
+    border-radius: 15px;
   }
   
   #button1::before {
